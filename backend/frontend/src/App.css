@@ -1,0 +1,159 @@
+/* App.css */
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f3f2ef;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Main Layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #0073b1;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Profile Form */
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+}
+
+form input[type="text"],
+form input[type="file"],
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+form button {
+  background-color: #0073b1;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #005582;
+}
+
+/* Profile Cards */
+.profile-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 15px;
+  padding: 20px;
+  width: calc(33.333% - 30px);
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+.profile-card h3 {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.profile-card p {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+/* Photos */
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.photos img {
+  width: 100%;
+  max-width: 100px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Home Page Layout */
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Buttons and Links */
+button, a {
+  text-align: center;
+  font-weight: bold;
+}
+
+a.button-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0073b1;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a.button-link:hover {
+  background-color: #005582;
+}
+
+/* Footer */
+footer {
+  background-color: #0073b1;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
